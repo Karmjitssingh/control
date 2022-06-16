@@ -10,7 +10,7 @@ class App extends Component {
   }
   handledSubmit = (e) => {
     e.preventDefault();
-  setState({ value: this.textInput.current.value });
+ this.setState({ value: this.textInput.current.value });
   };
 
   render() {
